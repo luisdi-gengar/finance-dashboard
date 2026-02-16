@@ -4,23 +4,19 @@ __pycache__/
 *$py.class
 *.so
 .Python
-*.egg-info/
-dist/
 build/
+dist/
+*.egg-info/
 
-# Virtual environments
-venv/
-env/
-bin/
-lib/
-share/
-pyvenv.cfg
+# UV
+.venv/
 
 # Django
 *.log
 db.sqlite3
 db.sqlite3-journal
 staticfiles/
+media/
 
 # IDE
 .vscode/
