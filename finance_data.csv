@@ -1,0 +1,501 @@
+timestamp,description,amount
+2025-02-16 09:14:17,Toll Road,-236.8
+2025-02-16 19:18:17,Toll Road,-60.26
+2025-02-16 21:51:17,Souvenirs,-257.19
+2025-02-17 12:12:17,Travel Insurance,-1326.72
+2025-02-18 01:57:17,Concert Tickets,-418.31
+2025-02-19 02:41:17,Interest Earned,1477.3
+2025-02-19 05:40:17,Medical Test,-431.25
+2025-02-24 05:12:17,Dividend Income,11254.91
+2025-02-24 20:28:17,Lyft Ride,-90.93
+2025-02-26 19:05:17,Lyft Ride,-144.7
+2025-02-27 09:25:17,Therapy Session,-1238.57
+2025-03-01 03:56:17,Phone Bill,-1492.69
+2025-03-01 11:31:17,Property Tax,-2018.97
+2025-03-02 01:58:17,Concert Tickets,-384.64
+2025-03-03 01:26:17,Therapy Session,-1035.42
+2025-03-03 02:43:17,Toll Road,-128.85
+2025-03-04 10:00:17,Car Maintenance,-202.35
+2025-03-04 19:05:17,Restaurant - Travel,-1178.84
+2025-03-07 05:22:17,Restaurant - Dinner,-199.45
+2025-03-07 09:27:17,Electronics - Laptop,-359.85
+2025-03-08 11:09:17,Uber Ride,-109.34
+2025-03-10 06:52:17,Rental Income,14033.88
+2025-03-10 20:20:17,Insurance Premium,-1880.93
+2025-03-11 07:26:17,Health & Beauty,-627.52
+2025-03-12 11:37:17,Medical Test,-1050.54
+2025-03-14 03:22:17,Property Tax,-296.34
+2025-03-14 08:51:17,Hotel Stay,-2484.14
+2025-03-16 03:29:17,Groceries - Costco,-37.11
+2025-03-16 07:48:17,Rental Income,6316.89
+2025-03-18 19:43:17,Clothing - Items,-942.02
+2025-03-19 14:02:17,Water Bill,-1286.15
+2025-03-19 17:33:17,Takeout,-113.39
+2025-03-20 16:59:17,Health & Beauty,-57.28
+2025-03-20 22:45:17,Flight Booking,-950.98
+2025-03-21 06:54:17,Phone Bill,-1655.82
+2025-03-22 03:34:17,Bonus,9167.88
+2025-03-23 19:58:17,Interest Earned,3390.73
+2025-03-25 09:25:17,Flight Booking,-264.98
+2025-03-25 14:07:17,Hotel Stay,-2450.49
+2025-03-26 04:56:17,Gym Membership,-1040.27
+2025-03-26 14:47:17,Amazon Purchase,-981.7
+2025-03-27 16:36:17,Clothing - Items,-1359.82
+2025-03-27 18:04:17,Mortgage Payment,-820.24
+2025-03-28 11:21:17,Car Rental,-2971.68
+2025-03-29 05:00:17,Clothing - Items,-611.63
+2025-03-31 02:23:17,Books & Media,-1219.54
+2025-04-03 12:28:17,Car Rental,-723.92
+2025-04-04 06:10:17,Interest Earned,10882.28
+2025-04-04 09:10:17,Vision Care,-473.18
+2025-04-05 10:23:17,Insurance Premium,-967.04
+2025-04-05 17:39:17,Health Insurance,-392.95
+2025-04-09 21:43:17,Pet Supplies,-57.36
+2025-04-11 01:56:17,Streaming Services,-183.16
+2025-04-11 07:23:17,Pharmacy - Prescription,-605.73
+2025-04-11 23:31:17,Groceries - Costco,-59.94
+2025-04-12 17:57:17,Hobby Supplies,-201.34
+2025-04-14 01:47:17,Doctor Visit,-376.19
+2025-04-14 11:52:17,Concert Tickets,-33.67
+2025-04-15 14:03:17,Groceries - Trader Joes,-186.87
+2025-04-15 18:09:17,Travel Insurance,-2324.0
+2025-04-15 20:37:17,Toll Road,-138.21
+2025-04-15 21:52:17,Sports Event,-60.22
+2025-04-16 08:07:17,Netflix Subscription,-58.66
+2025-04-17 23:44:17,Car Rental,-2117.32
+2025-04-19 06:46:17,Groceries - Whole Foods,-159.12
+2025-04-19 08:24:17,Lyft Ride,-33.56
+2025-04-19 14:04:17,Restaurant - Travel,-2855.11
+2025-04-20 14:19:17,Hobby Supplies,-412.1
+2025-04-23 11:28:17,Books & Media,-370.19
+2025-04-24 02:54:17,Sports Event,-375.0
+2025-04-26 08:56:17,Medical Test,-1265.59
+2025-04-27 00:31:17,Takeout,-132.31
+2025-04-27 04:00:17,Spotify Subscription,-256.31
+2025-04-27 08:14:17,Water Bill,-68.94
+2025-04-27 16:27:17,Amazon Purchase,-1293.04
+2025-04-27 22:17:17,Tour Booking,-531.93
+2025-04-28 13:07:17,Streaming Services,-128.65
+2025-04-29 11:15:17,Property Tax,-1971.46
+2025-04-30 14:54:17,Consulting Fee,14532.9
+2025-04-30 21:29:17,Toll Road,-93.65
+2025-05-01 08:58:17,Spotify Subscription,-176.45
+2025-05-02 13:04:17,Stock Sale Profit,5787.45
+2025-05-02 18:56:17,Movie Theater,-493.83
+2025-05-02 20:40:17,Freelance Project Payment,11787.1
+2025-05-05 20:06:17,Pharmacy - Prescription,-589.46
+2025-05-05 21:55:17,Hotel Stay,-364.55
+2025-05-05 22:09:17,Pet Supplies,-617.32
+2025-05-06 02:26:17,Sports Event,-313.51
+2025-05-07 14:22:17,Tour Booking,-691.67
+2025-05-07 22:41:17,Food Delivery,-104.21
+2025-05-08 10:55:17,Phone Bill,-1919.65
+2025-05-09 08:24:17,Takeout,-22.88
+2025-05-11 09:34:17,Streaming Services,-66.56
+2025-05-11 23:11:17,Fast Food,-69.54
+2025-05-12 19:34:17,Grocery Store,-1447.43
+2025-05-13 21:20:17,Fast Food,-57.44
+2025-05-15 01:11:17,Tour Booking,-1619.8
+2025-05-15 14:54:17,Rent Payment,-1705.88
+2025-05-16 06:04:17,Insurance Premium,-2084.66
+2025-05-16 15:29:17,Travel Insurance,-626.32
+2025-05-16 21:25:17,Airbnb Rental,-2453.34
+2025-05-17 12:57:17,Food Delivery,-157.57
+2025-05-18 03:54:17,Grocery Store,-369.04
+2025-05-18 16:54:17,Home Improvement,-1264.09
+2025-05-19 05:07:17,Pet Supplies,-933.37
+2025-05-23 18:42:17,Public Transit,-66.62
+2025-05-23 22:11:17,Vision Care,-1286.9
+2025-05-24 01:13:17,Doctor Visit,-1312.96
+2025-05-24 02:11:17,Gym Membership,-841.66
+2025-05-24 03:50:17,Hotel Stay,-2022.03
+2025-05-24 19:12:17,Coffee Shop,-181.16
+2025-05-25 12:17:17,Spotify Subscription,-483.61
+2025-05-27 14:03:17,Streaming Services,-266.22
+2025-05-28 02:33:17,Uber Ride,-210.67
+2025-05-28 19:28:17,Doctor Visit,-87.05
+2025-05-31 08:31:17,Groceries - Costco,-90.43
+2025-06-03 14:47:17,Spotify Subscription,-410.39
+2025-06-03 22:17:17,Car Maintenance,-154.1
+2025-06-05 16:26:17,Coffee Shop,-60.34
+2025-06-05 17:04:17,Car Rental,-2375.4
+2025-06-05 19:14:17,Car Rental,-455.65
+2025-06-06 10:02:17,Pet Supplies,-154.11
+2025-06-07 01:33:17,Rental Income,1328.9
+2025-06-07 14:24:17,Parking Fee,-34.31
+2025-06-07 18:00:17,Consulting Fee,5495.67
+2025-06-08 05:47:17,Flight Booking,-1716.48
+2025-06-09 14:52:17,Electric Bill,-1066.5
+2025-06-09 23:05:17,Stock Sale Profit,8523.02
+2025-06-10 03:18:17,Water Bill,-1918.38
+2025-06-11 02:17:17,Interest Earned,9032.38
+2025-06-11 09:39:17,Amazon Purchase,-149.32
+2025-06-11 20:05:17,Movie Theater,-40.35
+2025-06-12 13:17:17,Souvenirs,-1306.37
+2025-06-14 03:42:17,Parking Fee,-40.27
+2025-06-15 03:20:17,Streaming Services,-319.66
+2025-06-16 20:19:17,Mortgage Payment,-2376.19
+2025-06-16 20:39:17,Concert Tickets,-374.65
+2025-06-16 21:15:17,Car Insurance,-48.47
+2025-06-17 09:03:17,Interest Earned,6587.47
+2025-06-18 09:03:17,Food Delivery,-140.22
+2025-06-19 15:54:17,Groceries - Whole Foods,-94.92
+2025-06-19 22:26:17,Tour Booking,-2399.51
+2025-06-20 01:32:17,Clothing - Items,-38.22
+2025-06-20 04:46:17,Uber Ride,-249.8
+2025-06-21 05:25:17,Health Insurance,-1484.49
+2025-06-22 08:31:17,Concert Tickets,-471.04
+2025-06-22 14:18:17,Groceries - Costco,-41.75
+2025-06-22 23:36:17,Car Rental,-1427.8
+2025-06-23 00:12:17,Vision Care,-681.17
+2025-06-24 01:01:17,Health Insurance,-85.25
+2025-06-24 06:36:17,Movie Theater,-314.39
+2025-06-26 14:12:17,Bonus,13567.54
+2025-06-27 06:07:17,Coffee Shop,-39.54
+2025-06-27 15:47:17,Sports Event,-403.1
+2025-06-28 10:13:17,Netflix Subscription,-260.73
+2025-07-01 21:01:17,Groceries - Whole Foods,-38.89
+2025-07-02 10:15:17,Stock Sale Profit,9978.41
+2025-07-03 15:05:17,Grocery Store,-657.67
+2025-07-04 03:04:17,Grocery Store,-652.16
+2025-07-05 14:27:17,Parking Fee,-168.15
+2025-07-06 17:14:17,Consulting Fee,12189.43
+2025-07-07 23:33:17,Spotify Subscription,-417.15
+2025-07-08 07:03:17,Dividend Income,7736.14
+2025-07-08 11:37:17,Medical Test,-1410.07
+2025-07-09 12:19:17,Clothing - Items,-892.42
+2025-07-12 02:37:17,Pet Supplies,-699.44
+2025-07-13 02:20:17,Travel Insurance,-2493.4
+2025-07-14 07:48:17,Rent Payment,-630.41
+2025-07-14 12:51:17,Vision Care,-1444.78
+2025-07-15 16:41:17,Hobby Supplies,-418.19
+2025-07-17 07:19:17,Groceries - Costco,-7.76
+2025-07-17 07:41:17,Electronics - Laptop,-409.28
+2025-07-17 11:35:17,Car Insurance,-287.42
+2025-07-17 17:04:17,Toll Road,-201.15
+2025-07-17 18:39:17,Lyft Ride,-185.23
+2025-07-18 09:41:17,Public Transit,-98.53
+2025-07-18 18:33:17,Airbnb Rental,-1394.99
+2025-07-18 23:58:17,Electric Bill,-768.75
+2025-07-19 05:32:17,Toll Road,-204.73
+2025-07-19 14:16:17,Amazon Purchase,-692.85
+2025-07-19 16:15:17,Medical Test,-615.55
+2025-07-20 06:20:17,Hotel Stay,-787.9
+2025-07-20 21:34:17,Amazon Purchase,-527.33
+2025-07-23 22:57:17,Health Insurance,-1228.35
+2025-07-24 05:09:17,Property Tax,-520.41
+2025-07-24 10:18:17,Dividend Income,13113.01
+2025-07-24 23:17:17,Parking Fee,-234.84
+2025-07-25 16:56:17,Pharmacy - Prescription,-352.56
+2025-07-26 07:12:17,Dental Checkup,-1014.1
+2025-07-26 13:05:17,Vision Care,-627.36
+2025-07-27 00:09:17,Takeout,-186.13
+2025-07-27 08:16:17,Pet Supplies,-1298.72
+2025-07-28 20:00:17,Tour Booking,-2072.32
+2025-07-29 06:19:17,Mortgage Payment,-162.0
+2025-07-29 09:43:17,Car Rental,-1045.07
+2025-07-29 21:18:17,Home Improvement,-1338.08
+2025-07-30 19:05:17,Grocery Store,-419.77
+2025-07-31 22:10:17,Insurance Premium,-2122.54
+2025-08-01 05:47:17,Restaurant - Travel,-355.58
+2025-08-02 21:14:17,Streaming Services,-303.3
+2025-08-03 07:20:17,Public Transit,-167.44
+2025-08-04 08:03:17,Mortgage Payment,-2229.24
+2025-08-04 18:50:17,Amazon Purchase,-352.35
+2025-08-04 20:01:17,Restaurant - Travel,-368.15
+2025-08-05 03:58:17,Rent Payment,-2043.1
+2025-08-05 04:36:17,Movie Theater,-371.91
+2025-08-05 09:54:17,Interest Earned,14088.82
+2025-08-08 03:11:17,Car Insurance,-163.2
+2025-08-08 21:34:17,Rental Income,1455.72
+2025-08-09 05:19:17,Sports Event,-389.53
+2025-08-09 19:45:17,Medical Test,-63.85
+2025-08-11 04:52:17,Fast Food,-89.36
+2025-08-11 19:12:17,Bonus,8275.31
+2025-08-12 01:02:17,Vision Care,-1261.24
+2025-08-13 02:52:17,Parking Fee,-89.07
+2025-08-13 11:42:17,Groceries - Whole Foods,-25.05
+2025-08-13 11:50:17,Airbnb Rental,-2459.84
+2025-08-13 17:55:17,Gaming - Purchase,-65.33
+2025-08-15 00:59:17,Streaming Services,-300.77
+2025-08-15 03:32:17,Lyft Ride,-198.74
+2025-08-15 05:04:17,Airbnb Rental,-2759.01
+2025-08-15 09:44:17,Therapy Session,-816.57
+2025-08-15 19:23:17,Netflix Subscription,-42.15
+2025-08-16 17:01:17,Mortgage Payment,-80.23
+2025-08-17 02:18:17,Uber Ride,-232.59
+2025-08-19 22:53:17,Electronics - Laptop,-1155.74
+2025-08-20 16:33:17,Health & Beauty,-760.72
+2025-08-21 05:19:17,Phone Bill,-1691.93
+2025-08-21 21:42:17,Public Transit,-185.13
+2025-08-22 01:21:17,Interest Earned,5756.59
+2025-08-23 10:39:17,Pet Supplies,-879.72
+2025-08-23 16:13:17,Pet Supplies,-127.6
+2025-08-25 03:39:17,Public Transit,-12.38
+2025-08-25 17:55:17,Electronics - Laptop,-434.74
+2025-08-26 06:57:17,Water Bill,-2105.98
+2025-08-26 13:05:17,Toll Road,-171.95
+2025-08-27 13:07:17,Pharmacy - Prescription,-1162.81
+2025-08-27 20:46:17,Internet Service,-1691.79
+2025-08-28 02:31:17,Sports Event,-290.79
+2025-08-29 08:44:17,Health Insurance,-1255.67
+2025-08-29 10:09:17,Restaurant - Travel,-1078.75
+2025-08-29 10:24:17,Mortgage Payment,-2047.91
+2025-08-29 12:31:17,Flight Booking,-1946.57
+2025-08-29 14:30:17,Insurance Premium,-690.83
+2025-08-29 21:43:17,Groceries - Costco,-84.18
+2025-08-29 22:46:17,Takeout,-66.75
+2025-08-30 14:51:17,Therapy Session,-138.77
+2025-08-30 16:29:17,Dental Checkup,-1229.0
+2025-09-02 17:03:17,Gaming - Purchase,-353.5
+2025-09-03 18:40:17,Consulting Fee,7416.21
+2025-09-05 11:46:17,Rent Payment,-1899.66
+2025-09-06 16:19:17,Toll Road,-298.38
+2025-09-06 20:25:17,Groceries - Costco,-32.23
+2025-09-07 15:07:17,Netflix Subscription,-9.59
+2025-09-07 20:01:17,Mortgage Payment,-2387.64
+2025-09-09 15:00:17,Dividend Income,2663.36
+2025-09-11 21:28:17,Spotify Subscription,-321.16
+2025-09-11 23:06:17,Airbnb Rental,-2944.09
+2025-09-12 06:02:17,Pet Supplies,-537.9
+2025-09-13 04:15:17,Dental Checkup,-1136.54
+2025-09-13 05:45:17,Takeout,-78.02
+2025-09-13 10:16:17,Grocery Store,-501.41
+2025-09-13 21:27:17,Groceries - Costco,-52.19
+2025-09-14 01:16:17,Souvenirs,-1219.63
+2025-09-14 14:51:17,Freelance Project Payment,1378.88
+2025-09-14 21:51:17,Car Maintenance,-51.96
+2025-09-15 12:45:17,Clothing - Items,-862.22
+2025-09-16 10:55:17,Netflix Subscription,-145.01
+2025-09-16 14:32:17,Bonus,10255.13
+2025-09-17 19:34:17,Toll Road,-137.9
+2025-09-17 19:36:17,Bonus,13390.45
+2025-09-19 09:26:17,Books & Media,-385.03
+2025-09-19 15:02:17,Medical Test,-960.67
+2025-09-21 15:34:17,Souvenirs,-892.18
+2025-09-22 05:40:17,Restaurant - Travel,-1396.68
+2025-09-22 14:10:17,Dental Checkup,-295.85
+2025-09-23 04:51:17,Airbnb Rental,-245.83
+2025-09-23 11:56:17,Car Insurance,-87.11
+2025-09-23 21:19:17,Books & Media,-28.85
+2025-09-24 02:56:17,Home Improvement,-340.78
+2025-09-24 04:52:17,Sports Event,-383.11
+2025-09-24 05:04:17,Vision Care,-760.39
+2025-09-26 03:44:17,Health & Beauty,-257.88
+2025-09-26 05:25:17,Stock Sale Profit,14592.38
+2025-09-26 11:42:17,Mortgage Payment,-1535.21
+2025-09-27 00:29:17,Parking Fee,-132.23
+2025-09-27 14:57:17,Medical Test,-1009.93
+2025-09-28 17:41:17,Netflix Subscription,-335.59
+2025-09-29 12:17:17,Groceries - Trader Joes,-139.95
+2025-09-30 09:51:17,Health Insurance,-861.57
+2025-09-30 19:48:17,Gym Membership,-1347.87
+2025-09-30 20:12:17,Car Rental,-686.0
+2025-10-03 07:30:17,Car Maintenance,-289.85
+2025-10-04 07:44:17,Souvenirs,-1075.55
+2025-10-07 00:42:17,Takeout,-174.83
+2025-10-07 10:59:17,Tour Booking,-145.62
+2025-10-08 20:12:17,Restaurant - Dinner,-148.64
+2025-10-09 02:51:17,Mortgage Payment,-1454.83
+2025-10-09 11:15:17,Car Insurance,-11.98
+2025-10-09 22:05:17,Dental Checkup,-1106.02
+2025-10-11 21:33:17,Food Delivery,-199.55
+2025-10-11 22:15:17,Pharmacy - Prescription,-226.87
+2025-10-13 02:05:17,Toll Road,-290.34
+2025-10-13 08:08:17,Books & Media,-252.12
+2025-10-14 00:43:17,Rental Income,3751.22
+2025-10-14 06:19:17,Tour Booking,-2331.37
+2025-10-14 08:58:17,Car Maintenance,-213.55
+2025-10-15 07:25:17,Takeout,-42.17
+2025-10-15 17:47:17,Car Insurance,-205.7
+2025-10-15 22:49:17,Groceries - Trader Joes,-92.48
+2025-10-16 07:50:17,Car Maintenance,-257.97
+2025-10-17 14:12:17,Car Maintenance,-230.92
+2025-10-17 15:37:17,Car Maintenance,-99.74
+2025-10-18 04:25:17,Mortgage Payment,-1769.75
+2025-10-19 16:22:17,Pharmacy - Prescription,-205.48
+2025-10-20 06:51:17,Doctor Visit,-263.66
+2025-10-21 03:14:17,Pharmacy - Prescription,-191.78
+2025-10-21 11:17:17,Gym Membership,-1400.62
+2025-10-23 20:30:17,Fast Food,-100.48
+2025-10-24 19:22:17,Netflix Subscription,-346.69
+2025-10-25 22:54:17,Hotel Stay,-2707.87
+2025-10-26 14:01:17,Consulting Fee,11150.74
+2025-10-27 10:07:17,Car Rental,-1128.99
+2025-10-28 09:45:17,Parking Fee,-69.61
+2025-10-29 16:25:17,Travel Insurance,-1542.37
+2025-11-02 19:08:17,Food Delivery,-153.69
+2025-11-03 17:27:17,Streaming Services,-408.8
+2025-11-04 03:20:17,Car Maintenance,-18.09
+2025-11-04 12:22:17,Takeout,-87.49
+2025-11-04 14:47:17,Bonus,2413.19
+2025-11-05 03:18:17,Pharmacy - Prescription,-439.2
+2025-11-05 15:25:17,Health & Beauty,-1144.83
+2025-11-06 04:16:17,Internet Service,-1012.74
+2025-11-06 12:48:17,Travel Insurance,-206.2
+2025-11-08 11:35:17,Tour Booking,-2303.97
+2025-11-08 17:33:17,Public Transit,-115.37
+2025-11-09 14:03:17,Public Transit,-31.83
+2025-11-09 15:18:17,Hotel Stay,-1370.68
+2025-11-09 15:36:17,Car Maintenance,-134.76
+2025-11-12 03:43:17,Health & Beauty,-677.93
+2025-11-14 09:25:17,Pharmacy - Prescription,-1193.78
+2025-11-15 04:04:17,Airbnb Rental,-868.66
+2025-11-15 17:22:17,Salary - Monthly,8176.56
+2025-11-16 00:54:17,Doctor Visit,-144.24
+2025-11-16 04:13:17,Salary - Monthly,8523.71
+2025-11-17 22:07:17,Car Insurance,-222.89
+2025-11-18 04:20:17,Restaurant - Travel,-2044.41
+2025-11-18 08:55:17,Movie Theater,-59.07
+2025-11-18 12:29:17,Groceries - Whole Foods,-167.79
+2025-11-19 00:01:17,Lyft Ride,-124.89
+2025-11-19 02:04:17,Groceries - Whole Foods,-79.69
+2025-11-19 06:44:17,Dividend Income,7806.49
+2025-11-19 08:47:17,Coffee Shop,-133.91
+2025-11-19 10:20:17,Coffee Shop,-102.65
+2025-11-19 16:54:17,Rental Income,7584.78
+2025-11-19 23:52:17,Rental Income,13207.7
+2025-11-20 14:22:17,Interest Earned,12576.92
+2025-11-20 19:59:17,Freelance Project Payment,14205.23
+2025-11-21 16:46:17,Consulting Fee,13163.31
+2025-11-22 05:39:17,Bonus,14173.14
+2025-11-22 09:37:17,Streaming Services,-126.21
+2025-11-22 19:53:17,Public Transit,-69.73
+2025-11-23 23:34:17,Pharmacy - Prescription,-1168.74
+2025-11-24 10:18:17,Travel Insurance,-989.21
+2025-11-25 04:35:17,Electronics - Laptop,-470.84
+2025-11-25 22:23:17,Freelance Project Payment,1591.04
+2025-11-26 06:33:17,Car Insurance,-101.93
+2025-11-26 09:55:17,Grocery Store,-404.05
+2025-11-26 23:53:17,Bonus,13681.22
+2025-11-27 01:33:17,Water Bill,-1056.48
+2025-11-27 21:41:17,Airbnb Rental,-650.7
+2025-11-28 11:01:17,Doctor Visit,-411.4
+2025-11-28 16:04:17,Vision Care,-397.39
+2025-11-28 17:28:17,Pharmacy - Prescription,-58.87
+2025-11-29 13:35:17,Groceries - Whole Foods,-173.6
+2025-11-30 10:38:17,Souvenirs,-1009.88
+2025-11-30 10:54:17,Uber Ride,-192.44
+2025-11-30 17:12:17,Therapy Session,-555.75
+2025-12-01 02:59:17,Lyft Ride,-53.54
+2025-12-01 03:00:17,Car Maintenance,-44.07
+2025-12-01 09:01:17,Uber Ride,-169.63
+2025-12-02 21:21:17,Grocery Store,-1114.04
+2025-12-03 02:01:17,Hotel Stay,-2936.16
+2025-12-03 19:01:17,Dividend Income,2782.44
+2025-12-03 19:02:17,Insurance Premium,-1163.16
+2025-12-04 07:33:17,Freelance Project Payment,6578.76
+2025-12-05 11:32:17,Gaming - Purchase,-15.86
+2025-12-05 20:08:17,Property Tax,-1278.35
+2025-12-06 07:47:17,Doctor Visit,-921.31
+2025-12-06 09:26:17,Tour Booking,-1088.05
+2025-12-07 17:57:17,Netflix Subscription,-382.74
+2025-12-09 18:10:17,Bonus,2972.42
+2025-12-10 11:26:17,Mortgage Payment,-2491.75
+2025-12-11 18:29:17,Insurance Premium,-550.44
+2025-12-12 13:36:17,Hotel Stay,-1463.03
+2025-12-12 15:28:17,Restaurant - Dinner,-192.35
+2025-12-12 18:42:17,Health Insurance,-245.57
+2025-12-13 07:11:17,Interest Earned,9750.2
+2025-12-13 09:36:17,Health Insurance,-696.12
+2025-12-15 10:51:17,Health & Beauty,-158.57
+2025-12-16 08:16:17,Uber Ride,-87.28
+2025-12-18 02:29:17,Restaurant - Travel,-326.5
+2025-12-18 14:29:17,Netflix Subscription,-341.74
+2025-12-19 00:56:17,Car Maintenance,-283.87
+2025-12-19 15:33:17,Therapy Session,-824.59
+2025-12-19 16:43:17,Coffee Shop,-58.87
+2025-12-21 05:30:17,Sports Event,-55.79
+2025-12-22 04:51:17,Netflix Subscription,-322.38
+2025-12-22 07:57:17,Clothing - Items,-1443.25
+2025-12-23 04:16:17,Rent Payment,-2439.67
+2025-12-23 13:09:17,Car Maintenance,-122.7
+2025-12-23 20:16:17,Tour Booking,-1382.26
+2025-12-24 21:46:17,Flight Booking,-466.07
+2025-12-25 05:19:17,Insurance Premium,-999.17
+2025-12-26 15:51:17,Dividend Income,8020.91
+2025-12-27 01:42:17,Streaming Services,-323.45
+2025-12-27 17:01:17,Fast Food,-38.38
+2025-12-28 23:49:17,Sports Event,-256.12
+2025-12-29 01:39:17,Home Improvement,-670.24
+2025-12-29 04:34:17,Dental Checkup,-260.13
+2025-12-30 16:12:17,Insurance Premium,-1997.59
+2025-12-31 14:00:17,Health & Beauty,-899.14
+2026-01-01 21:35:17,Grocery Store,-1462.87
+2026-01-01 23:53:17,Electric Bill,-2071.83
+2026-01-02 18:38:17,Toll Road,-38.86
+2026-01-02 22:52:17,Flight Booking,-1890.63
+2026-01-03 10:05:17,Hotel Stay,-1459.87
+2026-01-03 15:25:17,Restaurant - Travel,-2606.32
+2026-01-04 07:00:17,Restaurant - Dinner,-47.65
+2026-01-04 18:08:17,Gym Membership,-611.49
+2026-01-04 23:35:17,Dental Checkup,-1236.06
+2026-01-05 09:46:17,Netflix Subscription,-179.21
+2026-01-06 18:31:17,Mortgage Payment,-2486.84
+2026-01-08 12:19:17,Restaurant - Dinner,-32.84
+2026-01-09 02:57:17,Concert Tickets,-115.49
+2026-01-09 10:34:17,Therapy Session,-888.77
+2026-01-09 12:48:17,Medical Test,-148.37
+2026-01-09 22:31:17,Parking Fee,-253.64
+2026-01-10 17:29:17,Airbnb Rental,-2568.07
+2026-01-10 20:34:17,Salary - Monthly,11908.52
+2026-01-12 01:15:17,Flight Booking,-1780.76
+2026-01-12 01:54:17,Clothing - Items,-807.38
+2026-01-12 21:37:17,Medical Test,-1449.26
+2026-01-13 06:14:17,Electric Bill,-2171.21
+2026-01-14 10:46:17,Fast Food,-12.47
+2026-01-15 08:35:17,Tour Booking,-1363.17
+2026-01-15 19:04:17,Sports Event,-303.59
+2026-01-16 21:26:17,Netflix Subscription,-424.35
+2026-01-18 13:21:17,Interest Earned,7018.84
+2026-01-18 19:51:17,Food Delivery,-20.89
+2026-01-18 21:18:17,Restaurant - Dinner,-114.83
+2026-01-18 22:13:17,Dividend Income,4462.42
+2026-01-19 04:41:17,Therapy Session,-129.47
+2026-01-19 12:13:17,Salary - Monthly,13703.95
+2026-01-20 17:04:17,Water Bill,-487.26
+2026-01-21 04:54:17,Insurance Premium,-2420.86
+2026-01-21 20:05:17,Flight Booking,-466.11
+2026-01-21 20:35:17,Water Bill,-2055.14
+2026-01-22 10:35:17,Water Bill,-1813.4
+2026-01-22 13:51:17,Stock Sale Profit,9205.95
+2026-01-24 01:44:17,Consulting Fee,2493.63
+2026-01-24 02:29:17,Water Bill,-2385.84
+2026-01-24 03:07:17,Groceries - Trader Joes,-68.1
+2026-01-24 11:00:17,Doctor Visit,-665.61
+2026-01-25 20:19:17,Tour Booking,-450.91
+2026-01-28 17:06:17,Health & Beauty,-1418.4
+2026-01-28 17:20:17,Medical Test,-1432.82
+2026-01-29 18:27:17,Netflix Subscription,-114.16
+2026-01-30 20:47:17,Streaming Services,-100.17
+2026-02-01 08:53:17,Dividend Income,13967.11
+2026-02-01 10:12:17,Tour Booking,-1436.4
+2026-02-01 12:15:17,Hotel Stay,-2096.98
+2026-02-01 16:01:17,Medical Test,-46.98
+2026-02-02 11:30:17,Electric Bill,-1025.44
+2026-02-03 09:40:17,Health Insurance,-760.7
+2026-02-03 19:57:17,Travel Insurance,-2904.51
+2026-02-04 04:30:17,Rental Income,8946.39
+2026-02-05 06:59:17,Health & Beauty,-467.14
+2026-02-05 18:26:17,Netflix Subscription,-462.46
+2026-02-05 19:47:17,Groceries - Trader Joes,-13.52
+2026-02-06 06:26:17,Internet Service,-2413.21
+2026-02-06 15:14:17,Doctor Visit,-693.14
+2026-02-07 14:16:17,Home Improvement,-76.58
+2026-02-07 17:22:17,Takeout,-132.71
+2026-02-08 04:36:17,Hotel Stay,-2630.89
+2026-02-08 15:03:17,Interest Earned,10791.85
+2026-02-08 21:21:17,Coffee Shop,-65.37
+2026-02-10 03:20:17,Bonus,3725.29
+2026-02-10 05:01:17,Souvenirs,-1970.23
+2026-02-10 14:00:17,Car Maintenance,-237.41
+2026-02-10 17:22:17,Public Transit,-178.83
+2026-02-10 21:37:17,Grocery Store,-805.87
+2026-02-11 01:11:17,Consulting Fee,6864.96
+2026-02-11 01:58:17,Car Maintenance,-295.64
+2026-02-11 02:32:17,Grocery Store,-555.03
+2026-02-11 06:21:17,Parking Fee,-233.78
+2026-02-12 09:54:17,Grocery Store,-476.65
+2026-02-14 02:57:17,Water Bill,-1708.99
+2026-02-14 20:22:17,Spotify Subscription,-205.49
+2026-02-16 09:11:17,Sports Event,-163.26
