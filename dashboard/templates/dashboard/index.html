@@ -241,53 +241,53 @@
     <div class="header">
         <div class="header-left">
             <h1>💰 Finance Dashboard</h1>
-            <div class="subtitle"><span data-en>{{ num_transactions }}</span> <span data-en>transactions</span><span data-es style="display:none">transacciones</span></div>
+            <div class="subtitle"><span id="trans-transactions">{{ num_transactions }}</span> <span id="trans-transactions-label">transactions</span></div>
         </div>
-        <button class="lang-toggle" onclick="toggleLanguage()">🇪🇸 Español</button>
+        <button class="lang-toggle" id="lang-toggle">🇪🇸 Español</button>
     </div>
     
     <div class="container">
         <div class="stats-grid">
             <div class="stat-card income">
-                <div class="stat-label"><span data-en>💵 Income</span><span data-es style="display:none">💵 Ingresos</span></div>
+                <div class="stat-label" id="trans-income">💵 Income</div>
                 <div class="stat-value">${{ total_income|floatformat:0 }}</div>
             </div>
             <div class="stat-card expense">
-                <div class="stat-label"><span data-en>💸 Expenses</span><span data-es style="display:none">💸 Gastos</span></div>
+                <div class="stat-label" id="trans-expenses">💸 Expenses</div>
                 <div class="stat-value">${{ total_expenses|floatformat:0 }}</div>
             </div>
             <div class="stat-card net">
-                <div class="stat-label"><span data-en>📊 Net</span><span data-es style="display:none">📊 Neto</span></div>
+                <div class="stat-label" id="trans-net">📊 Net</div>
                 <div class="stat-value">${{ net|floatformat:0 }}</div>
             </div>
         </div>
         
         <div class="charts-grid">
             <div class="chart-card full-width">
-                <div class="chart-title"><span data-en>📈 Monthly Cash Flow</span><span data-es style="display:none">📈 Flujo de Caja Mensual</span></div>
+                <div class="chart-title" id="trans-monthly">📈 Monthly Cash Flow</div>
                 <div id="monthly-chart"></div>
             </div>
             
             <div class="chart-card">
-                <div class="chart-title"><span data-en>🗂️ Expenses</span><span data-es style="display:none">🗂️ Gastos</span></div>
+                <div class="chart-title" id="trans-category">🗂️ Expenses</div>
                 <div id="category-chart"></div>
                 <div class="category-legend" id="category-legend"></div>
             </div>
             
             <div class="chart-card">
-                <div class="chart-title"><span data-en>📅 Daily Avg</span><span data-es style="display:none">📅 Promedio Diario</span></div>
+                <div class="chart-title" id="trans-daily">📅 Daily Avg</div>
                 <div id="daily-chart"></div>
             </div>
         </div>
         
         <div class="transactions-table">
-            <div class="table-title"><span data-en>💸 Top Expenses</span><span data-es style="display:none">💸 Principales Gastos</span></div>
+            <div class="table-title" id="trans-top">💸 Top Expenses</div>
             <table>
                 <thead>
                     <tr>
-                        <th><span data-en>Date</span><span data-es style="display:none">Fecha</span></th>
-                        <th><span data-en>Description</span><span data-es style="display:none">Descripción</span></th>
-                        <th><span data-en>Amount</span><span data-es style="display:none">Monto</span></th>
+                        <th id="trans-date">Date</th>
+                        <th id="trans-desc">Description</th>
+                        <th id="trans-amount">Amount</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -308,60 +308,50 @@
     </div>
     
     <script>
-        let isSpanish = false;
-        const categoryColors = {
-            'Shopping': '#f4212e',
-            'Food & Dining': '#ff7a1a',
-            'Transportation': '#ffd400',
-            'Entertainment': '#00ba7c',
-            'Bills & Utilities': '#1d9bf0',
-            'Healthcare': '#9d36d6',
-            'Travel': '#e0245e',
-            'Other': '#71767b'
-        };
+        // Translations from Django context
+        const translations = {{ translations|safe }};
+        const categoryLabels = {{ category_labels|safe }};
         
-        const categoryLabels = {
-            'en': {
-                'Shopping': 'Shopping',
-                'Food & Dining': 'Food & Dining',
-                'Transportation': 'Transport',
-                'Entertainment': 'Entertainment',
-                'Bills & Utilities': 'Bills',
-                'Healthcare': 'Healthcare',
-                'Travel': 'Travel',
-                'Other': 'Other'
-            },
-            'es': {
-                'Shopping': 'Compras',
-                'Food & Dining': 'Comida',
-                'Transportation': 'Transporte',
-                'Entertainment': 'Entretenim.',
-                'Bills & Utilities': 'Facturas',
-                'Healthcare': 'Salud',
-                'Travel': 'Viajes',
-                'Other': 'Otros'
-            }
-        };
+        let isSpanish = false;
+        
+        // Category data from Django
+        const categoryData = {{ category_data|safe }};
+        
+        function $(id) {
+            return document.getElementById(id);
+        }
         
         function toggleLanguage() {
             isSpanish = !isSpanish;
             const lang = isSpanish ? 'es' : 'en';
+            const t = translations[lang];
             
-            document.querySelectorAll('[data-en]').forEach(el => el.style.display = isSpanish ? 'none' : 'inline');
-            document.querySelectorAll('[data-es]').forEach(el => el.style.display = isSpanish ? 'inline' : 'none');
+            // Update all translated elements
+            $('trans-income').textContent = t.income;
+            $('trans-expenses').textContent = t.expenses;
+            $('trans-net').textContent = t.net;
+            $('trans-monthly').textContent = t.monthly_cash_flow;
+            $('trans-category').textContent = t.expenses_by_category;
+            $('trans-daily').textContent = t.daily_average;
+            $('trans-top').textContent = t.top_expenses;
+            $('trans-date').textContent = t.date;
+            $('trans-desc').textContent = t.description;
+            $('trans-amount').textContent = t.amount;
+            $('trans-transactions-label').textContent = t.transactions;
             
-            document.querySelector('.lang-toggle').textContent = isSpanish ? '🇺🇸 English' : '🇪🇸 Español';
+            // Update button
+            $('lang-toggle').textContent = isSpanish ? '🇺🇸 English' : '🇪🇸 Español';
             
+            // Update legend
             updateCategoryLegend(lang);
         }
         
         function updateCategoryLegend(lang) {
-            const legend = document.getElementById('category-legend');
-            const cats = categoryData.map(c => c.category);
-            legend.innerHTML = cats.map(cat => `
+            const legend = $('category-legend');
+            legend.innerHTML = categoryData.map(cat => `
                 <div class="legend-item">
-                    <span class="legend-dot" style="background:${categoryColors[cat] || '#71767b'}"></span>
-                    <span style="color:${categoryColors[cat] || '#71767b'}">${categoryLabels[lang][cat] || cat}</span>
+                    <span class="legend-dot" style="background:${cat.color}"></span>
+                    <span style="color:${cat.color}">${categoryLabels[lang][cat.category] || cat.category}</span>
                 </div>
             `).join('');
         }
@@ -379,7 +369,7 @@
             fillcolor: 'rgba(29, 155, 240, 0.2)'
         };
         
-        Plotly.newPlot('monthly-chart', [monthlyTrace], {
+        const monthlyLayout = {
             paper_bgcolor: 'transparent',
             plot_bgcolor: 'transparent',
             font: { color: '#71767b', size: 10 },
@@ -396,26 +386,26 @@
             },
             margin: { t: 10, r: 10, b: 30, l: 50 },
             responsive: true
-        });
+        };
+        
+        Plotly.newPlot('monthly-chart', [monthlyTrace], monthlyLayout, { responsive: true });
         
         // Category Chart
-        const categoryData = {{ category_data|safe }};
         const categories = categoryData.map(c => c.category);
         const amounts = categoryData.map(c => c.amount);
+        const colors = categoryData.map(c => c.color);
         
         const categoryTrace = {
             values: amounts,
             labels: categories,
             type: 'pie',
             hole: 0.5,
-            marker: {
-                colors: categories.map(c => categoryColors[c] || '#71767b')
-            },
+            marker: { colors: colors },
             textinfo: 'percent',
             textposition: 'outside',
             automargin: true,
             textfont: { size: 11 },
-            hovertemplate: '<b>%{label}</b><br>$%{value:,.0f}<br>%{percent}<extra></extra>'
+            hovertemplate: '<b>%{label}</b><br>$%{value:,.0f<br>%{percent}<extra></extra>'
         };
         
         Plotly.newPlot('category-chart', [categoryTrace], {
@@ -424,7 +414,7 @@
             margin: { t: 10, r: 10, b: 10, l: 10 },
             showlegend: false,
             responsive: true
-        });
+        }, { responsive: true });
         
         // Initialize legend
         updateCategoryLegend('en');
@@ -438,29 +428,36 @@
             x: days,
             y: avgs,
             type: 'bar',
-            marker: {
-                color: '#f4212e',
-                opacity: 0.8
-            }
+            marker: { color: '#f4212e', opacity: 0.8 }
         };
         
         Plotly.newPlot('daily-chart', [dailyTrace], {
             paper_bgcolor: 'transparent',
             plot_bgcolor: 'transparent',
             font: { color: '#71767b', size: 10 },
-            xaxis: { 
-                gridcolor: '#38444d',
-                color: '#71767b',
-                tickfont: { size: 9 }
-            },
-            yaxis: { 
-                gridcolor: '#38444d',
-                color: '#71767b',
-                tickprefix: '$',
-                tickfont: { size: 9 }
-            },
+            xaxis: { gridcolor: '#38444d', color: '#71767b', tickfont: { size: 9 } },
+            yaxis: { gridcolor: '#38444d', color: '#71767b', tickprefix: '$', tickfont: { size: 9 } },
             margin: { t: 10, r: 10, b: 30, l: 50 },
             responsive: true
+        }, { responsive: true });
+        
+        // Add event listener properly
+        $('lang-toggle').addEventListener('click', toggleLanguage);
+        
+        // Handle resize events for charts
+        window.addEventListener('resize', function() {
+            Plotly.Plots.resize('monthly-chart');
+            Plotly.Plots.resize('category-chart');
+            Plotly.Plots.resize('daily-chart');
+        });
+        
+        // Handle orientation change on mobile
+        window.addEventListener('orientationchange', function() {
+            setTimeout(function() {
+                Plotly.Plots.resize('monthly-chart');
+                Plotly.Plots.resize('category-chart');
+                Plotly.Plots.resize('daily-chart');
+            }, 100);
         });
     </script>
 </body>
