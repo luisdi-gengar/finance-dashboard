@@ -28,7 +28,7 @@ cd finance-dashboard
 uv sync
 
 # Run the server
-uv run django manage.py runserver
+uv run python manage.py runserver
 ```
 
 Open http://localhost:8000 to view the dashboard.
@@ -105,17 +105,17 @@ uv add django
 uv remove django
 
 # Run Django commands
-uv run django manage.py migrate
-uv run django manage.py createsuperuser
+uv run python manage.py migrate
+uv run python manage.py createsuperuser
 
 # Run the development server
-uv run django manage.py runserver
+uv run python manage.py runserver
 
 # Regenerate synthetic data
 uv run python generate_data.py
 
 # Shell (Django shell)
-uv run django manage.py shell
+uv run python manage.py shell
 ```
 
 ## Regenerate Data
