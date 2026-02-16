@@ -52,12 +52,13 @@ def index(request):
     monthly = df.groupby('month').agg({'amount': 'sum'}).reset_index()
     monthly['month_str'] = monthly['month'].astype(str)
     
-    # Category breakdown
+    # Category breakdown (expenses only, exclude income)
     expenses_only = df[df['amount'] < 0].copy()
     category_totals = expenses_only.groupby('category')['amount'].sum().abs()
+    # Filter out Income category from chart
     category_data = [
         {'category': cat, 'amount': round(amt, 2), 'color': get_category_color(cat)}
-        for cat, amt in category_totals.items()
+        for cat, amt in category_totals.items() if cat != 'Income'
     ]
     
     # Daily spending pattern
